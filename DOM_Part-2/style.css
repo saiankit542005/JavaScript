@@ -1,0 +1,35 @@
+.p1{
+   background-color: rgb(0,0,255);
+   font-size: 50px;
+   width:400px;
+   height:400px;
+   text-align: center;
+   /* margin: 200px auto; */
+   border : 1px solid rgb(0,0,0);
+   /* font-family: sans-serif; */
+}
+
+.container {
+   background-color: rgb(116, 237, 11);
+   font-size: 50px;
+   width:400px;
+   height:400px;
+   /* margin: 200px auto; */
+   border : 1px solid rgb(0,0,0);
+   /* font-family: sans-serif; */
+}
+
+.box{
+    border:2px solid red;
+    margin:10px;
+    /* background-color: brown; */
+}
+
+.content{
+    color:rgb(238, 4, 4);
+    font-size:50px;
+}
+
+.newClass{
+    background-color:blueviolet;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- inline Events handling -->
+    <button onclick="console.log('clicked this button')">click me!</button>
+    <button
+      ondblclick="console.log('click continuous 2 times');alert('2x button')"
+    >
+      click me 2x!
+    </button>
+
+    <div onmouseover="console.log('mouse hover on this box')" class="box">
+      This is a box
+    </div>
+
+    <div>
+      <button id="btn1">Cart</button>
+    </div>
+
+    <div id="container1">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolore
+        reiciendis voluptate? Corrupti, pariatur. Veritatis fuga animi delectus
+        sapiente, enim tenetur blanditiis repudiandae? Quo, officiis at hic
+        voluptatem nulla eius!
+      </p>
+    </div>
+
+    <div id="container2"></div>
+
+    <button id="btn2">Change mode</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

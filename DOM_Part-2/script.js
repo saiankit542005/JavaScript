@@ -86,4 +86,4 @@ console.log(cq2.getAttribute("class"));
 // cq2.setAttribute("class","newClass"); //
 
 cq2.classList.add("newClass"); // now, p Tag have two class (content & newClass)
-// cq2.classList.remove("content"); y
+// cq2.classList.remove("content"); 
